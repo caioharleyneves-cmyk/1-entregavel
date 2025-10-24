@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Preencha o Formulário </h1>
+    <form>
+        <label for="campo_nome">First name:</label>
+
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required> <!--note que na hora de fazer o for o Campo_nome tem que ser o mesmo do id-->
+   <br><br>
+   <!--Aqui é pro nome-->
+    <label for="campo_ultimonome">Last name:</label>
+
+        <input id="campo_ultimonome" type="text" placeholder="Digite seu nome aqui" required>
+        <br><br>
+        <!--Aqui é pra senha-->
+    <label for="senha">Senha:</label>
+
+        <input id="senha" type="password" placeholder="Digite sua senha" required>
+        <!--Aqui é pra email-->
+         <br><br>
+    <label for="senha">Email:</label>
+
+        <input id="senha" type="email" placeholder="Digite seu email" required>
+        <br><br>
+        <!-- quero fazer itens-->
+         <!-- Só posso macar um entre os que tem o mesmo label-->
+         <h2>Idade</h2>
+         <input type="radio" id =" 1"
+         name="Idade" value="1">
+         <label for=" 1">0-18</label>
+         <br><br>
+
+
+
+          <input type="radio" id =" 2"
+         name="Idade" value="18-36">
+         <label for="2">19-36</label>
+
+<br><br>
+
+
+         
+          <input type="radio" id =" 3"
+         name="Idade" value="37-54">
+         <label for="3">37-54</label>
+
+
+<br><br>
+
+
+         
+          <input type="radio" id =" 4"
+         name="Idade" value="37-54">
+         <label for="4">54-100</label>
+
+
+
+
+
+
+
+
+         <!--Agora eu chcik-->
+         <h2>Como nos conheceu</h2>
+         <input id="item 1" type="checkbox"
+         name="item 1" value="Geladeira">
+         <label for="item 1">Propagandas na internet</label>
+         <br><br>
+          <input id="item 2" type="checkbox"
+         name="item 2" value="Micro-ondas">
+         <label for="item 2">Recomendação de amigos</label>
+<br><br>
+          <input id="item 3" type="checkbox"
+         name="item 3" value="Micro-ondas">
+         <label for="item 3">Instagram</label>
+
+<br><br>
+          <input id="item 4" type="checkbox"
+         name="item 4" value="Micro-ondas">
+         <label for="item 4">Tik tok</label>
+
+
+
+         <!--Agora já é outro tipo de campo-->
+        <br><br>
+
+         <h2>Gênero</h2>
+         <select>
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Não Binário">Não Binário</option>
+            <option value="Prefiro não informar">Prefiro não informar</option>
+
+         </select>
+        <!--Submissão-->
+         <br><br>
+    <h2>Deixe uma crítica ou sugestão</h2>
+    
+    <textarea placeholder="Digite sua mensaagem aqui"></textarea>
+    <br>
+        <input type="submit" value="Enviar formulario">
+    </form>
+    <hr><br>
+    <a href="paginaprincipal.html">Voltar para a página principal</a>
+</body>
+</html>
